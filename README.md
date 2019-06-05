@@ -14,4 +14,9 @@ https://louisehangel.github.io/curri
 https://louisehangel.github.io/horario
 
 
+https://louisehangel.github.io/cv.html
+
+
 https://louisehangel.github.io/pagina.html
+
+
