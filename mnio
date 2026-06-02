@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="https://i.imgur.com/oZ0nRKLg.png">
+    <title>LouiseWeb</title>
+    
+    <style>
+        /* Configuración del fondo y tipografía */
+        body {
+            background-image: url("https://wallpapercave.com/wp/wp14741537.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Microsoft Himalaya', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        /* Título principal */
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            font-style: italic;
+        }
+
+        /* Contenedores principales (Reemplazan las tablas) */
+        .menu-container, .gif-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 800px;
+            margin-bottom: 40px;
+            background-color: rgba(0, 0, 0, 0.4); /* Fondo semitransparente para leer mejor */
+            padding: 20px;
+            border-radius: 12px;
+            backdrop-filter: blur(3px); /* Efecto difuminado moderno */
+        }
+
+        /* Estilo para los botones del menú */
+        .menu-item img {
+            width: 100px;
+            height: 90px;
+            object-fit: cover; /* Evita que las imágenes se deformen */
+            border-radius: 8px;
+            border: 2px solid transparent;
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Efecto al pasar el cursor sobre los botones */
+        .menu-item img:hover {
+            transform: scale(1.1);
+            border-color: #ff8da1; /* Color rosa pastel al pasar el mouse */
+            box-shadow: 0px 0px 15px rgba(255, 141, 161, 0.6);
+        }
+
+        /* Estilo para la galería de GIFs decorativos del final */
+        .gif-container {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        .gif-item {
+            max-width: 200px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ようこそ</h1>
+
+    <div class="menu-container">
+        <a class="menu-item" href="https://www.google.com.mx" target="_blank">
+            <img src="https://i.pinimg.com/originals/a7/37/2e/a7372eaaeafa289f28534ad39d96d517.gif" alt="Google">
+        </a>
+        <a class="menu-item" href="https://www.facebook.com" target="_blank">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyeDliOTRkMHFhMjZwbW85OTdlY3c2MXNhaWFyZ2sycDdiY2djNTFnMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ijEiXYEo9DBxm/giphy.gif" alt="Facebook">
+        </a>
+        <a class="menu-item" href="https://www.youtube.com" target="_blank">
+            <img src="https://cdn.dribbble.com/userupload/22057406/file/original-102766353c43b90107b9bb69d981be3a.gif" alt="YouTube">
+        </a>
+        <a class="menu-item" href="https://translate.google.com" target="_blank">
+            <img src="https://cdn.dribbble.com/userupload/41911692/file/original-4b9c7ca648c169e1dd33e20742104805.gif" alt="Traductor">
+        </a>
+    </div>
+
+    <div class="gif-container">
+        <img class="gif-item" src="https://66.media.tumblr.com/9bc3b579d14b65d45c16f7f48ab08f15/tumblr_orprpaDbI21qzxv73o1_400.gifv" alt="Decoración 1">
+        <img class="gif-item" src="https://steamuserimages-a.akamaihd.net/ugc/352771022139797459/0D54B6E974514736C9F10E663474E5E4524BD24B/" alt="Decoración 2">
+        <img class="gif-item" src="https://media1.giphy.com/media/ZBG5f8jp3wFHy/giphy.gif" alt="Decoración 3">
+    </div>
+
+</body>
+</html>
